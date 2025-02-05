@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Amarante&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders+Display:wght@100..900&family=Bitter:ital,wght@0,100..900;1,100..900&family=Italianno&family=Karla:ital,wght@0,200..800;1,200..800&family=Roboto+Slab:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.dishCard {
+  border: 4px solid #b32323;
+  border-radius: 30px;
+  padding: 20px;
+  background-color: #f0e1c0;
+  box-sizing: border-box;
+  margin-top: 25vh;
+  margin-left: 20vw;
+}
+
+.menuCard {
+  box-sizing: border-box;
+  justify-content: center;
+  text-align: center;
+  font-family: italiano;
+  font-style: italic;
+  font-size: clamp(1.8rem, 1.4vw, 1.2rem); /* Dynamisk tekststørrelse */
+  font-weight: 800;
+  color: red;
+  /* width: 20vw; */
+}
+
+.ingress {
+  box-sizing: border-box;
+  text-align: center;
+  font-family: italiano;
+  font-style: italic;
+  font-weight: 800;
+  color: red;
+  padding-bottom: 10px;
+}
